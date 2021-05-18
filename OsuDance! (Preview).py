@@ -30,7 +30,7 @@ def read_config():
         return parsed_conf
 
     config_filepath = False
-    game_folder = 'C:/Users/{}/AppData/Local/osu!'.format(os.environ.get('USERNAME'))  # noqa
+    game_folder = 'C:/Users/{}/AppData/Local/osu!'.format(os.environ.get('USERNAME'))  # noq
 
     while not os.path.isdir(game_folder):
         print('osu!\'s game directory was not found, please manually enter the path.')  # noqa
